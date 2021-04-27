@@ -1,0 +1,38 @@
+#wrapper {
+  width: 908px;
+  margin: 0 auto;
+}
+
+.item {
+  width: 225px;
+  height: 225px;
+  padding: 1px;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+  float: left;
+  transition: all 300ms ease;
+}
+
+.item.big {
+  width: 450px;
+  height: 450px;
+}
+
+.item .inner {
+  width: 100%;
+  height: 100%;
+  background: #999;
+}
+
+.item p {
+  text-align: center;
+  position: relative;
+  top:45%;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}

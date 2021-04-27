@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>FancyScroll</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+  <div id="wrapper-outer">
+    <div id="wrapper">
+      <div class='item big'>
+        <p>hello</p>
+      </div>
+      <div class='item big'>
+        <p>world</p>
+      </div>
+      <div class='item big'>
+        <p><a href="https://github.com/firsara/fancy-scroll">Fabian Irsara</a><br></p>
+      </div>
+      <script>
+        for (var i = 0; i < 50; i++) {
+          var size = Math.random() < .5 ? 'big' : '';
+          var color = ('00000'+(Math.random()*(1<<24)|0).toString(16)).slice(-6);
+    
+          document.write('<div class="item '+size+'"><div class="inner" style="background: #'+color+'"></div></div>');
+        }
+        </script>
+    </div>
+  </div>
+  <script src='./src/fancyScroll.js' ></script>
+  <script src='./src/scroll.js' ></script>
+</html>
