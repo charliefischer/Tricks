@@ -10,6 +10,8 @@ Testing how this Markdown works
 
 Whatever goes in here goes in to .post-content
 
+hello there
+
 <!-- Start of ChatBot (www.chatbot.com) code -->
 <script type="text/javascript">
     window.__be = window.__be || {};
